@@ -1,0 +1,18 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "Enviar Código para Placa",
+        "type": "shell",
+        "command": "source .venv/bin/activate && mpremote connect /dev/ttyUSB0 fs cp ${file} :${fileBasename}",
+        "problemMatcher": [],
+        "options": {
+          "cwd": "${workspaceFolder}"
+        },
+        "group": {
+          "kind": "build",
+          "isDefault": true
+        }
+      }
+    ]
+  }

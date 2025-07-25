@@ -1,0 +1,7 @@
+[
+    {
+      "key": "ctrl+F8",
+      "command": "workbench.action.tasks.runTask",
+      "args": "Enviar Código para Placa",
+    }
+]

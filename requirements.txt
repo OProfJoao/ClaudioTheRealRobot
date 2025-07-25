@@ -1,0 +1,4 @@
+machine==0.0.1
+mpremote==1.25.0
+pycrypto==2.6.1
+pyserial==3.5
